@@ -1,0 +1,10 @@
+{
+  "name": "Tarefinhas",
+  "short_name": "Tarefinhas",
+  "description": "Capture rápido, organize sem esforço e execute com clareza.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbf7f2",
+  "theme_color": "#fbf7f2",
+  "icons": []
+}
