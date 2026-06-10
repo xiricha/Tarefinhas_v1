@@ -1,0 +1,13 @@
+{
+  "name": "tarefinhas-v1",
+  "version": "1.0.0",
+  "description": "Mobile-first productivity app focused on quick capture, inbox triage, planning, filters, and lightweight insights.",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 5173",
+    "build": "rm -rf dist && mkdir -p dist/src && cp index.html manifest.webmanifest dist/ && cp src/app.js src/styles.css dist/src/",
+    "check": "node --check src/app.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
